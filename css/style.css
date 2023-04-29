@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+:root {
+    --primary-green-color: #145163;
+    --primary-light-orange: #fdbf74;
+    --primary-orange: #ea736a;
+    --middle-orange: #feb68a;
+}
+
+* {
+    font-family: 'Bruno Ace', cursive;
+}
+
+body {
+    background: url(../img/star_wars_background.jpg);
+    background-size: cover;
+}
+
+.reply-block {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: fit-content;
+}
+
+button {
+    background-color: var(--primary-green-color);
+    border: 0.1875rem solid var(--primary-light-orange);
+    color: var(--primary-orange);
+    padding: 1.125rem 2.25rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    border-radius: 1.875rem;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--primary-light-orange);
+    color: var(--primary-green-color);
+    border-color: var(--primary-orange);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: var(--primary-orange);
+    border-color: var(--primary-green-color);
+    color: var(--primary-light-orange);
+    transform: translateY(0.0625rem);
+}
+
+#nameFrame {
+    align-self: center;
+}
+
+h1 {
+    color: var(--primary-orange);
+    -webkit-text-stroke: 0.0625rem var(--middle-orange);
+    letter-spacing: 0.125rem;
+}
+
+#frame-wrapper {
+    display: none;
+    align-self: center;
+}
+
+#frame {
+    margin: 1.25rem;
+    height: calc(12.5rem + 6vw);
+    width: calc(12.5rem + 6vw);
+    border: calc(0.5rem + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
