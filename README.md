@@ -27,5 +27,9 @@ This is a simple web page that allows you to find a Star Wars character's name a
 
 This project is licensed under the [MIT License](LICENSE).
 
+The project was created for learning purposes and does not represent a real company or offer real services. The images used in the project are for demonstration purposes and sourced from unsplash.com.
+
 Feel free to explore and have fun with it!
+
+
 
